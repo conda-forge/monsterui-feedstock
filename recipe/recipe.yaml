@@ -1,5 +1,5 @@
 context:
-  version: "1.0.19"
+  version: "1.0.46"
   python_min: '3.10'
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/m/monsterui/monsterui-${{ version }}.tar.gz
-    sha256: 9a464868cd85cd0567009c1ae469caef04f27ed3985dcb9d6211513a193bb9c6
+    sha256: 656f1b8f93d608170900156e38fe6cf460e1164bdeb5fce5130c174b44934b3a
 
 build:
   script: ${{ PYTHON }} -m pip install .
